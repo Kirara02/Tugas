@@ -77,12 +77,6 @@
                             <table class="table  datanew">
                                 <thead>
                                     <tr>
-                                        <th>
-                                            <label class="checkboxs">
-                                                <input type="checkbox" id="select-all">
-                                                <span class="checkmarks"></span>
-                                            </label>
-                                        </th>
                                         <th>No</th>
                                         <th>Asal Cabang</th>
                                         <th>Tujuan Cabang</th>
@@ -94,51 +88,14 @@
                                 <tbody>
                                     <?php for($a=1; $a<=30; $a++):?>
                                     <tr>
-                                        <td>
-                                            <label class="checkboxs">
-                                                <input type="checkbox">
-                                                <span class="checkmarks"></span>
-                                            </label>
-                                        </td>
                                         <td>TO3245</td>
                                         <td>Bali</td>
                                         <td>Sumatra Utara</td>
                                         <td>25 Oktober 2022</td>
                                         <td>Tanpa Kerusakan</td>
                                         <td class="text-center">
-                                            <a class="action-set" href="javascript:void(0);" data-bs-toggle="dropdown"
-                                                aria-expanded="true">
-                                                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li>
-                                                    <a href="#" class="dropdown-item"><img
-                                                            src="img/icon/eye1.svg" class="me-2" alt="img">
-                                                        Detail Transaksi</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" class="dropdown-item"><img
-                                                            src="img/icon/edit.svg" class="me-2" alt="img">Edit
-                                                        Transaksi</a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:void(0);" class="dropdown-item"
-                                                        data-bs-toggle="modal" data-bs-target="#showpayment"><img
-                                                            src="img/icon/dollar-square.svg" class="me-2"
-                                                            alt="img">Lihat Pembayaran</a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:void(0);" class="dropdown-item"><img
-                                                            src="img/icon/download.svg" class="me-2"
-                                                            alt="img">Download pdf</a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:void(0);"
-                                                        class="dropdown-item confirm-text"><img
-                                                            src="img/icon/delete1.svg" class="me-2"
-                                                            alt="img">Hapus Transaksi</a>
-                                                </li>
-                                            </ul>
+                                            <a href=""><span class="badge bg-success">Edit</span></a>
+                                            <a href=""><span class="badge bg-danger">Hapus</span></a>
                                         </td>
                                     </tr>
                                     <?php endfor; ?>
